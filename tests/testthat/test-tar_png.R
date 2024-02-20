@@ -1,6 +1,6 @@
 test_that("tar_png works", {
   
-  export_path <- tempdir()
+  export_path <- paste0(tempdir(),'/test')
   
   targets::tar_dir({
     targets::tar_script({
