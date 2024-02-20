@@ -11,6 +11,8 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 URL: https://jasenfinch.github.io/jftargets/
 Imports: 
+    ggplot2,
+    rlang,
     targets
 Suggests: 
     testthat (>= 3.0.0)

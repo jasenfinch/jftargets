@@ -1,0 +1,4 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+export_iris_plot|stem|c22046d404be2c7e|da75833cb7dde43e|31f77ae96b7f6569|-1285508870|/tmp/RtmploooNJ/iris_plot.png|t19773.6527480116s|b5858e6a7e2db025|95271|file|local|vector|||1.372||
+export_path|object|88e25e58970d18ee|||||||||||||||
+iris_plot|stem|ab9c10b05cae81f7|d3206d8d52acfad3|ef46db3751d8e999|-688389720||t19773.6516782407s|6cf9aaa758918edb|1170334|rds|local|vector|||0.007||

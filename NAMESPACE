@@ -2,3 +2,4 @@
 
 export(tar_files)
 export(tar_files_raw)
+export(tar_png)
