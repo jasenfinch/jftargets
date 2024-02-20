@@ -35,6 +35,27 @@ The name of the returned target will be the name of the plot target with the pre
 The file name of the exported plot will be that of the argment provided to \code{plot_target}.
 }
 \examples{
-# example code
-
+if (identical(Sys.getenv("TAR_LONG_EXAMPLES"), "true")) {
+  targets::tar_dir({
+    targets::tar_script({
+      list(
+        targets::tar_target(
+          iris_plot,
+          ggplot2::ggplot(
+            iris,
+            ggplot2::aes(
+              x = Sepal.Length,
+              y = Sepal.Width
+            ) 
+          ) +
+            ggplot2::geom_point()
+        ),
+        jftargets::tar_png(iris_plot)
+      )
+    })
+    
+    targets::tar_make()
+    tar_read(export_iris_plot)
+  })
+}
 }
