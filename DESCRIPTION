@@ -1,10 +1,10 @@
 Package: jftargets
-Title: What the Package Does (One Line, Title Case)
+Title: A Collection Of Utility Functions For Use With Targets Pipelines
 Version: 0.0.1
 Authors@R: 
     person("Jasen", "Finch", , "jsf9@aber.ac.uk", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-6070-7476"))
-Description: What the package does (one paragraph).
+Description: Convenience target factories and functions for use with data analysis pipelines using the targets package.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
