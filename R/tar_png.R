@@ -7,7 +7,7 @@
 #' @return A target object for exporting a plot as a png.
 #' @details
 #' The name of the returned target will be the name of the plot target with the prefix `export_`.
-#' The file name of the exported plot will be that of the argment provided to `plot_target`. 
+#' The file name of the exported plot will be that of the argument provided to `plot_target`. 
 #' @examples
 #' if (identical(Sys.getenv("TAR_LONG_EXAMPLES"), "true")) {
 #'   targets::tar_dir({

@@ -32,7 +32,7 @@ A target for exporting a plot target as a png.
 }
 \details{
 The name of the returned target will be the name of the plot target with the prefix \code{export_}.
-The file name of the exported plot will be that of the argment provided to \code{plot_target}.
+The file name of the exported plot will be that of the argument provided to \code{plot_target}.
 }
 \examples{
 if (identical(Sys.getenv("TAR_LONG_EXAMPLES"), "true")) {
