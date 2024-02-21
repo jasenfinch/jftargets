@@ -19,9 +19,15 @@
     <loc>https://jasenfinch.github.io/jftargets/reference/index.html</loc>
   </url>
   <url>
+    <loc>https://jasenfinch.github.io/jftargets/reference/tar_csv.html</loc>
+  </url>
+  <url>
     <loc>https://jasenfinch.github.io/jftargets/reference/tar_files.html</loc>
   </url>
   <url>
     <loc>https://jasenfinch.github.io/jftargets/reference/tar_png.html</loc>
+  </url>
+  <url>
+    <loc>https://jasenfinch.github.io/jftargets/reference/tar_xlsx.html</loc>
   </url>
 </urlset>
