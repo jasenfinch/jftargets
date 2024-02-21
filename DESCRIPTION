@@ -17,4 +17,6 @@ Imports:
     targets
 Suggests: 
     testthat (>= 3.0.0)
+Remotes:
+    jasenfinch/jfmisc
 Config/testthat/edition: 3
