@@ -1,5 +1,5 @@
-test_that("tar_csv works", {
-  export_path <- paste0(tempdir(),'/csv')
+test_that("tar_xlsx works", {
+  export_path <- paste0(tempdir(),'/xlsx')
   
   targets::tar_dir({
     targets::tar_script({
@@ -8,7 +8,7 @@ test_that("tar_csv works", {
           iris,
           iris
         ),
-        jftargets::tar_csv(
+        jftargets::tar_xlsx(
           iris,
           export_path = export_path
         )
@@ -18,5 +18,5 @@ test_that("tar_csv works", {
     targets::tar_make(callr_function = NULL)
   })
   
-  expect_true(file.exists(paste0(export_path,'/iris.csv')))
+  expect_true(file.exists(paste0(export_path,'/iris.xlsx')))
 })
